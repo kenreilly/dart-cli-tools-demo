@@ -2,9 +2,6 @@ import 'dart:io';
 
 class Scanner {
 
-	Scanner({ this.path });
-
-	final String path;
 	int files = 0;
 	int size = 0;
 
