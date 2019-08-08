@@ -18,6 +18,8 @@ If you notice something out of place or in need of some improvements: issues, pu
 Thanks for checking out this project!
 [@8_bit_hacker](https://twitter.com/8_bit_hacker)
 
+![](preview.gif)
+
 ___
 Created from templates made available by Stagehand under a BSD-style
 [license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).

@@ -36,6 +36,6 @@ class Scanner {
 		files += 1;
 
 		String out = f.path.padLeft(f.path.length + 4);
-		print(out + filesize.toString() + " bytes");
+		print(out + " " + filesize.toString() + " bytes");
 	}
 }
