@@ -1,8 +1,8 @@
 name: dart_cli_tools_demo
 description: A sample command-line application.
-# version: 1.0.0
-# homepage: https://github.com/kenreilly/dart-cli-tools-demo
-# author: Kenneth Reilly <kenneth@innovationgroup.tech>
+homepage: https://github.com/kenreilly/dart-cli-tools-demo
+author: Kenneth Reilly <8_bit_hacker>
+version: 1.0.0
 
 environment:
   sdk: '>=2.1.0 <3.0.0'

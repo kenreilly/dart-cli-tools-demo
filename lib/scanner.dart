@@ -13,7 +13,7 @@ class Scanner {
 		print (" total size: " + scanner.size.toString() + " bytes");
 	}
 
-	void _traverse(String path) async {
+	Future<void> _traverse(String path) async {
 
 		print("\n  " + path + "/");
 
@@ -23,13 +23,13 @@ class Scanner {
 			Stream<FileSystemEntity> items = dir.list();
 			
 			await for (FileSystemEntity f in items) {
-				(f is Directory) ? await _traverse(f.path) : await _stat(f);
+				(f is Directory) ? await _traverse(f.path) : await _stat(f as File);
 			}
 		}
 		catch (e) { print(e.toString()); }
 	}
 
-	void _stat(File f) async {
+	Future<void> _stat(File f) async {
 		
 		int filesize = await f.length();
 		size += filesize;
