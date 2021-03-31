@@ -18,7 +18,7 @@ To run this example:
 
 ___
 ### Documentation
-A tutorial for this project is available [here](https://itnext.io/intro-to-bash-scripting-95c5fbc2dcef)
+A tutorial for this project is available [here](https://itnext.io/building-cli-programs-in-dart-81aaa85caeee)
 
 ___
 ### Contribution
